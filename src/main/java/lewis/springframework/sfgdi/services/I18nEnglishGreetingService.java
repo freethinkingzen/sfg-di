@@ -1,4 +1,4 @@
-package lewis.springframework.sfgdi.controllers.services;
+package lewis.springframework.sfgdi.services;
 
 import lewis.springframework.sfgdi.repositories.EnglishGreetingRepository;
 //import org.springframework.context.annotation.Profile;

@@ -1,4 +1,4 @@
-package lewis.springframework.sfgdi.controllers.services;
+package lewis.springframework.sfgdi.services;
 
 public interface GreetingService {
 

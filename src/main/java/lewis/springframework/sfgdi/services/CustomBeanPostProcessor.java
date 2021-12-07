@@ -1,4 +1,4 @@
-package lewis.springframework.sfgdi.controllers.services;
+package lewis.springframework.sfgdi.services;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

@@ -1,6 +1,6 @@
 package lewis.springframework.sfgdi.controllers;
 
-import lewis.springframework.sfgdi.controllers.services.ConstructorGreetingService;
+import lewis.springframework.sfgdi.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

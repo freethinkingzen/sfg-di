@@ -1,6 +1,6 @@
 package lewis.springframework.sfgdi.controllers;
 
-import lewis.springframework.sfgdi.controllers.services.GreetingService;
+import lewis.springframework.sfgdi.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 @Controller

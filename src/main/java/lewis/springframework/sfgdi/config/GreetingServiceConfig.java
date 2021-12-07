@@ -1,6 +1,6 @@
 package lewis.springframework.sfgdi.config;
 
-import lewis.springframework.sfgdi.controllers.services.*;
+import lewis.springframework.sfgdi.services.*;
 import lewis.springframework.sfgdi.repositories.EnglishGreetingRepository;
 import lewis.springframework.sfgdi.repositories.EnglishGreetingRepositoryImpl;
 import org.springframework.context.annotation.*;

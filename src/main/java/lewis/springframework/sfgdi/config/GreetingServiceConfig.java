@@ -3,11 +3,9 @@ package lewis.springframework.sfgdi.config;
 import lewis.springframework.sfgdi.controllers.services.*;
 import lewis.springframework.sfgdi.repositories.EnglishGreetingRepository;
 import lewis.springframework.sfgdi.repositories.EnglishGreetingRepositoryImpl;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Profile;
+import org.springframework.context.annotation.*;
 
+@ImportResource("classpath:sfgdi-config.xml")
 @Configuration
 public class GreetingServiceConfig {
 
@@ -34,10 +32,8 @@ public class GreetingServiceConfig {
         return new PrimaryGreetingService();
     }
 
-    @Bean
-    ConstructorGreetingService constructorGreetingService() {
-        return new ConstructorGreetingService();
-    }
+    // @Bean --Defined in XML--
+    // ConstructorGreetingService constructorGreetingService() { return new ConstructorGreetingService(); }
 
     @Bean
     PropertyInjectedGreetingService propertyInjectedGreetingService() {
